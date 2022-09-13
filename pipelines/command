@@ -1,0 +1,2 @@
+mkdir ol_dy && touch ol_dy/my_file && echo "Hello" > ol_dy/my_file && cat ol_dy/my_file || echo "SWW"
+grep "/sbin/nologin" /etc/passwd | sed 's_/sbin/nologin_/bin/bash_g'
